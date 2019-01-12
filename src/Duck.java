@@ -20,7 +20,7 @@ public abstract class Duck {
         System.out.println("All ducks float, even decoys!");
     }
 
-    //setters methods to FlyBehavior and QuackBehavior
+    //setters methods to FlyBehavior and QuackBehavior (to change duck's behavior at runtime
 
     public void setFlyBehavior(FlyBehavior fb){
         flyBehavior = fb;
